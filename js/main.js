@@ -1,8 +1,28 @@
 $(document).ready(function(){
 
-    $('.js-tilt').tilt({
-        scale: 1.2
-    })
+    // function animationHover(element, animation){
+    //     element = $(element);
+    //     element.hover(
+    //         function() {
+    //             element.addClass('animated ' + animation);
+    //         },
+    //         function(){
+    //             //wait for animation to finish before removing classes
+    //             window.setTimeout( function(){
+    //                 element.removeClass('animated ' + animation);
+    //             }, 2000);
+    //         });
+    // }
+    //   $('#street_image').each(function() {
+    //       animationHover(this, 'shake');
+    //   });
+    //
+    //   $('.js-tilt').tilt({
+    //       scale: 1.2
+    //   })
+    window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+    }
 
     $(function() {
        //Scrolling Effects

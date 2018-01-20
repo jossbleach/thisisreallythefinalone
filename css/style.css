@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:600,700|Lato:300,400");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:600,700|Lato:300,400");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:600,700|Lato:300,400");
+@import url(animate.css);
 .navigation {
   position: fixed;
   top: 0;
@@ -578,4 +579,5 @@ h1 {
   padding-top: 20px;
   color: #fff;
   text-align: center;
-  color: #8ebad7; }
+  color: #8ebad7;
+  font-size: 12px; }
