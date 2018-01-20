@@ -5,74 +5,54 @@
 @import navigation
 @import hero
 @import services
+@import work
 html, body
     -webkit-font-smoothing: antialiased
 h1
     margin: 0
-.section__normal--white
-    background:
-        color: #fff
-.card-parallax
-    height: 250px
-    width: 250px
-    display: block
-    margin: 0 auto
-    margin-bottom: 50px
-    background:
-
-    transform-style: preserve-3d
-#our-work-heading
-    margin-bottom: 50px
-#caspas
-    background:
-        image: url(../img/caspas.png)
-        size: contain
-        position: center
-        repeat: no-repeat
-.card-anchor
-    &:hover
-        text-decoration: none
-.column-hover
-    transform-style: preserve-3d
-.overlay
-    position: absolute
-    height: 100%
+.footer
     width: 100%
-    position: relative
-    top: 0
-    opacity: 0
-    padding: 15px
-    transition: opacity 0.3s ease-in-out
-    &:hover
-        opacity: 1
-        transition: opacity 0.3s ease-in-out
-#overlay-caspas
+    padding: 50px
     background:
-        color: rgba(122,185,41, 0.9)
-.card-heading
-    transform: translateZ(20px)
-    font:
-        size: 2.2em
-        family: $font__heading
-        weight: 700
-    text:
-        transform: uppercase
+        color: $colour__primary
     color: #fff
-    text-shadow: 0.1rem 0.1rem 0rem rgba(0,0,0,0.5)
-.card-subheading
     font:
         family: $font__copy
-        weight: 400
-        size: 16px
-    letter:
-        spacing: 2px
-    text:
-        transform: uppercase
+.address
+    list-style: none
+    padding-left: 0
+    @media screen and (max-width: $tablet)
+        text-align: center
+.centre-ul
+    list-style: none
+    text-align: center
+    font:
+        family: $font__copy
+    padding-left: 0
+.footer-link
     color: #fff
-.overlay i
-    display: block
-    position: relative
-    margin-top: 35px
-    float: right
+    transition: all 0.3s ease-in-out
+    &:hover
+        color: $colour__primary--50
+        text-decoration: none
+        transition: all 0.3s ease-in-out
+.right-ul
+    list-style: none
+    text-align: right
+    font:
+        family: $font__copy
+    padding-left: 0
+    @media screen and (max-width: $tablet)
+        text-align: center
+.social-links a
+    margin-left: 25px
+    @media screen and (max-width: $tablet)
+        margin-left: 0
+        padding: 0 25px
+.social-links
+    margin-top: 20px
+.centre-copyright
+    padding-top: 20px
     color: #fff
-    text-shadow: 0.1rem 0.1rem 0rem rgba(0,0,0,0.5)
+    text-align: center
+    color: $colour__primary--50
