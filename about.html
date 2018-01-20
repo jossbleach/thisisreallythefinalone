@@ -3,26 +3,55 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Silvercloud Creative</title>
+        <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <link rel="manifest" href="site.webmanifest">
         <link rel="apple-touch-icon" href="icon.png">
         <!-- Place favicon.ico in the root directory -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/index.css">
         <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav">
+            <div class="container mobile-container">
+                <div class="mobile-logo"></div>
+                <div id="nav-icon1">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="hidden-menu">
+            <ul class="hidden-list">
+                <li><a class="menu-link" href="index.html">Home</a></li>
+                <li><a class="menu-link" href="about.html">About</a></li>
+                <li><a class="menu-link" href="#">Services</a></li>
+                <li><a class="menu-link" href="contact.html">Contact</a></li>
+                <li>
+                    <a href="social-icon"><i class="hidden-social fab fa-facebook-f fa-2x"></i></a>
+                    <a href="social-icon"><i class="hidden-social fab fa-twitter fa-2x"></i></a>
+                    <a href="social-icon"><i class="hidden-social fab fa-behance fa-2x"></i></a>
+                    <a href="social-icon"><i class="hidden-social fab fa-dribbble fa-2x"></i></a>
+                </li>
+            </ul>
+        </div>
+        <!-- End Mobile Navigation -->
+
         <!-- Navigaton -->
         <div class="navigation navigation__bar--default">
             <div class="container">
                 <ul class="list">
-                    <li class="list__item list__item--default"><a href="index.html">Home</a></li>
-                    <li class="list__item list__item--active list__item list__item--default"><a class="list--anchor" href="#">About</a></li>
+                    <li class="list__item list__item--active list__item--active--default">Home</li>
+                    <li class="list__item list__item--default"><a href="about.html">About</a></li>
                     <li class="list__item list__item--logo"><div class="navlogo navigation__logo--default"></div></li>
                     <li class="list__item list__item--default"><a href="#">Services</a></li>
                     <li class="list__item list__item--default"><a href="contact.html">Contact</a></li>
@@ -34,29 +63,13 @@
         <div class="hero2">
             <div class="container">
                 <div class="wrapper">
-                    <h1 class="wrapper__heading--hero">About Us</h1>
-                    <p class="wrapper__subheading--hero">Creative Solutions Start-Ups and Small Businesses</p>
+                    <h1 class="hero-heading default">About Us</h1>
+                    <p class="hero-subheading default">Creative Solutions Start-Ups and Small Businesses</p>
                 </div>
             </div>
         </div>
         <!-- End Hero -->
-        <!-- About -->
-        <div class="section__white--about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 column__center">
-                        <div class="wrapper">
-                            <h1 class="wrapper__heading--section">About Us</h1>
-                            <p class="wrapper__copy--section">We are a young team of web designers, developers and graphic designers who are dedicated to building an online presence and visual identity for start ups and small businesses looking to improve their standing.</p>
-                            <a href="#" class="cta__primary">View More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="phone"></div>
-                <div class="shadow"></div>
-            </div>
-        </div>
-        <!-- End About -->
+
         <!--Our team -->
         <div class="section__white--team">
           <div class="container team">
@@ -89,45 +102,14 @@
           </div>
         </div>
         <!--End Our Team -->
-        <!-- Footer -->
-        <div class="section__blue section__blue--footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <ul class="list__footer">
-                            <li class="list__item--footer"><a href="#">Privacy Policy</a></li>
-                            <li class="list__item--footer"><a href="#">Terms & Conditions</a></li>
-                            <li class="list__item--footer"><a href="#">Testimonials</a></li>
-                            <li class="list__item--footer"><a href="#">Our Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="list__footer">
-                            <li class="list__item--footer"><a href="#">Web Design</a></li>
-                            <li class="list__item--footer"><a href="#">Branding</a></li>
-                            <li class="list__item--footer"><a href="#">Photography</a></li>
-                            <li class="list__item--footer"><a href="#">Videos</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="list__footer">
-                            <li class="list__item--footer list__item--heading"><a href="mailto:enquiries@silvercloudcreative.com?subject=Enquiry">enquiries@silvercloudcreative.com</a></li>
-                            <li class="list__item--footer"><a href="#">Site Map</a></li>
-                            <li class="list__item--footer"><a href="#">The Team</a></li>
-                            <li class="list__item--footer"><a href="#">Cookie Policy</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <p class="social-list"><i class="fab fa-facebook-f fa-2x"></i><i class="fab fa-twitter fa-2x"></i><i class="fab fa-behance fa-2x"></i><i class="fab fa-dribbble fa-2x"></i></p>
-                <p class="copyright">&copy; Silvercloud Creative Ltd. 2018, 20-22 Wenlock Road, London, England, N1 7GU</p>
-            </div>
-        </div>
-        <!-- End Footer -->
+
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
             window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
