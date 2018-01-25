@@ -631,6 +631,18 @@
   display: block;
   margin: 0 auto; }
 
+.social-icon {
+  display: block;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  .social-icon:hover {
+    color: #8ebad7;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+
 .col__padded {
   padding: 10px; }
 
@@ -685,3 +697,23 @@ html, body {
 
 h1 {
   margin: 0; }
+
+#services_hero {
+  background-image: url(../img/servicesbg.svg);
+  background-position: centre;
+  background-size: 300px 300px; }
+
+#about_hero {
+  background-color: #1e76b0; }
+
+#contact_hero {
+  background-color: #1e76b0; }
+
+.services-description {
+  padding: 30px 16%;
+  font-size: 21px;
+  line-height: 30px;
+  text-align: center; }
+  @media screen and (max-width: 768px) {
+    .services-description {
+      font-size: 16px; } }

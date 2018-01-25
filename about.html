@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css" />
     </head>
-    <body>
+    <body class="wow animated fadeIn">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -32,7 +32,7 @@
             <ul class="hidden-list">
                 <li><a class="menu-link" href="index.html">Home</a></li>
                 <li><a class="menu-link" href="about.html">About</a></li>
-                <li><a class="menu-link" href="#">Services</a></li>
+                <li><a class="menu-link" href="services.html">Services</a></li>
                 <li><a class="menu-link" href="contact.html">Contact</a></li>
                 <li>
                     <a href="social-icon"><i class="hidden-social fab fa-facebook-f fa-2x"></i></a>
@@ -47,21 +47,20 @@
         <div class="navigation navigation__bar--default">
             <div class="container">
                 <ul class="list">
-                    <li class="list__item list__item--active list__item--active--default">Home</li>
-                    <li class="list__item list__item--default"><a href="about.html">About</a></li>
+                    <li class="list__item list__item--default"><a href="index.html">Home</a></li>
+                    <li class="list__item list__item--active list__item--active--default">About</li>
                     <li class="list__item list__item--logo"><div class="navlogo navigation__logo--default"></div></li>
-                    <li class="list__item list__item--default"><a href="#">Services</a></li>
+                    <li class="list__item list__item--default"><a href="services.html">Services</a></li>
                     <li class="list__item list__item--default"><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
         <!-- End Navigation -->
         <!-- Hero -->
-        <div class="hero2">
+        <div class="hero2" id="about_hero">
             <div class="container">
                 <div class="wrapper">
                     <h1 class="hero-heading default">About Us</h1>
-                    <p class="hero-subheading default">Creative Solutions Start-Ups and Small Businesses</p>
                 </div>
             </div>
         </div>
@@ -155,7 +154,7 @@
             </div>
         </div>
         <!-- End Footer -->
-        
+
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
