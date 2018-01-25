@@ -1,0 +1,121 @@
+.section__normal--white
+    background:
+        color: #fff
+.card-parallax
+    height: 250px
+    width: 250px
+    display: block
+    margin: 0 auto
+    margin-bottom: 50px
+    transform-style: preserve-3d
+#our-work-heading
+    margin-bottom: 50px
+#caspas
+    background:
+        image: url(../img/caspa.svg)
+        size: contain
+        position: center
+        repeat: no-repeat
+#caribintel
+    background:
+        image: url(../img/caribbeanintelligence.svg)
+        size: contain
+        position: center
+        repeat: no-repeat
+#silvercloud
+    background:
+        image: url(../img/silvercloud.svg)
+        size: contain
+        position: center
+        repeat: no-repeat
+#oryx
+    background:
+        image: url(../img/oryx.svg)
+        size: contain
+        position: center
+        repeat: no-repeat
+.card-anchor
+    &:hover
+        text-decoration: none
+.column-hover
+    transform-style: preserve-3d
+.overlay
+    position: absolute
+    height: 100%
+    width: 100%
+    position: relative
+    top: 0
+    opacity: 0
+    padding: 15px
+    transition: opacity 0.3s ease-in-out
+    &:hover
+        opacity: 1
+        transition: opacity 0.3s ease-in-out
+    @media screen and (max-width: $tablet)
+        display: none
+#overlay-caspas
+    background:
+        color: rgba(122,185,41, 0.9)
+#overlay-caribintel
+    background:
+        color: rgba(40,111,164, 0.9)
+#overlay-silvercloud
+    background:
+        color: rgba(214,214,214, 0.9)
+#overlay-oryx
+    background:
+        color: rgba(0,0,0, 0.9)
+.card-heading
+    transform: translateZ(20px)
+    font:
+        size: 1.7em
+        family: $font__heading
+        weight: 700
+    text:
+        transform: uppercase
+    color: #fff
+    text-shadow: 0.1rem 0.1rem 0rem rgba(0,0,0,0.5)
+.project-heading
+    font:
+        size: 20px
+        family: $font__heading
+    text:
+        transform: uppercase
+        align: center
+    color: $colour__primary
+.project-details
+    text-align: center
+    display: none
+    @media screen and (max-width: $tablet)
+        display: block
+.project-subheading
+    font:
+        size: 12px
+        family: $font__copy
+    text:
+        align: center
+    color: black
+.project-cta
+    font:
+        size: 12px
+    text:
+        align: center
+.card-subheading
+    transform: translateZ(10px)
+    font:
+        family: $font__copy
+        weight: 400
+        size: 16px
+    letter:
+        spacing: 2px
+    text:
+        transform: uppercase
+    color: #fff
+.overlay i
+    transform: translateZ(20px)
+    display: block
+    position: relative
+    margin-top: 25px
+    float: right
+    color: #fff
+    text-shadow: 0.1rem 0.1rem 0rem rgba(0,0,0,0.5)
